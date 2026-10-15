@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Théocratie — Vente et réparation d'appareils électroniques</title>
+<meta name="description" content="Vente et réparation de téléphones, ordinateurs, télévisions et accessoires électroniques.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#accueil"><i>TD</i><span id="brand"></span></a>
+    <nav aria-label="Navigation principale">
+      <ul id="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#boutique">Boutique</a></li>
+        <li><a href="#reparations">Réparations</a></li>
+        <li><a href="#pourquoi-nous">Pourquoi nous choisir</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="wrap">
+      <h1>Théocratie<br>Digital Tech</h1>
+      <p>Vente et réparation de téléphones, ordinateurs, télévisions et accessoires électroniques.</p>
+      <div class="cta">
+        <a class="btn btn-p" href="#boutique">Découvrir la boutique</a>
+        <a class="btn btn-o" href="#reparations">Nos réparations</a>
+      </div>
+      <aside class="availability-banner" aria-label="Appareils disponibles">
+        <strong>Tout ce qu’il vous faut, au même endroit !</strong>
+        <span>Téléphones iPhone et Android, télévisions, projecteurs, ordinateurs et bien plus encore.</span>
+      </aside>
+    </div>
+  </section>
+
+  <section id="boutique">
+    <div class="wrap">
+      <h2>La boutique</h2>
+      <p class="lead">Choisissez une catégorie pour découvrir des modèles courants. Ces références sont données à titre d’exemple : qualité, état, disponibilité et prix sont à confirmer auprès de la boutique sur WhatsApp.</p>
+      <div class="tabs" id="shop-tabs"></div>
+      <div class="grid" id="shop"></div>
+    </div>
+  </section>
+
+  <section class="alt" id="reparations">
+    <div class="wrap">
+      <h2>Réparations</h2>
+      <p class="lead">Un appareil en panne ? Décrivez-nous le problème sur WhatsApp et demandez un diagnostic.</p>
+      <div class="grid" id="repairs"></div>
+    </div>
+  </section>
+
+  <section id="pourquoi-nous">
+    <div class="wrap">
+      <h2>Pourquoi nous choisir ?</h2>
+      <p class="lead">Une boutique à Lomé pour vos appareils électroniques, avec un contact direct pour vous renseigner avant votre achat ou votre réparation.</p>
+      <div class="grid reasons">
+        <article class="card reason">
+          <h3>Un large choix d’appareils</h3>
+          <p>Téléphones iPhone et Android, ordinateurs, télévisions et accessoires audio.</p>
+        </article>
+        <article class="card reason">
+          <h3>Vente et réparation</h3>
+          <p>Retrouvez les appareils présentés dans la boutique et contactez-nous pour une demande de réparation.</p>
+        </article>
+        <article class="card reason">
+          <h3>Un contact direct</h3>
+          <p>Demandez le prix, l’état et la disponibilité d’un modèle directement sur WhatsApp.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="faq">
+    <div class="wrap">
+      <h2>Questions fréquentes</h2>
+      <p class="lead">Les informations utiles avant de choisir un appareil ou de demander une réparation.</p>
+      <div class="faq-list">
+        <details>
+          <summary>Quels appareils proposez-vous ?</summary>
+          <p>La boutique présente des téléphones iPhone et Android, des ordinateurs, des télévisions et des accessoires audio. Pour un projecteur ou un autre appareil, contactez-nous afin de vérifier sa disponibilité.</p>
+        </details>
+        <details>
+          <summary>Les modèles affichés sont-ils tous disponibles ?</summary>
+          <p>Les modèles et photos sont donnés à titre d’exemple. Le stock, l’état et le prix peuvent varier : confirmez ces informations avec nous sur WhatsApp avant de vous déplacer.</p>
+        </details>
+        <details>
+          <summary>Comment connaître le prix d’un appareil ?</summary>
+          <p>Envoyez-nous le nom ou le modèle qui vous intéresse sur WhatsApp pour vérifier son prix et sa disponibilité.</p>
+        </details>
+        <details>
+          <summary>Comment demander une réparation ?</summary>
+          <p>Indiquez le type d’appareil, son modèle et le problème rencontré. Nous pourrons vous renseigner sur la prise en charge et le diagnostic.</p>
+        </details>
+      </div>
+      <p class="faq-contact">Une autre question ? <a class="btn btn-p" id="faq-whatsapp" target="_blank" rel="noopener">Écrivez-nous sur WhatsApp</a></p>
+    </div>
+  </section>
+
+  <section class="alt" id="apropos">
+    <div class="wrap about">
+      <div class="ph" id="portrait"></div>
+      <div>
+        <h2>À propos</h2>
+        <div id="about-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p class="lead">Une question, une commande ou un appareil à faire examiner ? Écrivez-nous.</p>
+      <div class="grid contact" id="contact-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span id="brand-foot"></span> © <span id="year"></span>. Tous droits réservés.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
